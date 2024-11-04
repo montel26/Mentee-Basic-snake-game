@@ -86,7 +86,7 @@ def game():
 
         val_x1 += new_x1
         val_y1 += new_y1
-        caption.fill(colour_1)
+        caption.fill(colour_4)
 
         
         pygame.draw.rect(caption, colour_5, [foodx_pos, foody_pos, snake_size, snake_size])
